@@ -1,9 +1,17 @@
-# DATA_SCIENCE_PROJECT_REPO_25
-Project Title:
-Predictive Modeling of Sign Language Acquisition in Children
+## Predictive Modelling of Sign Language Acquisition
 
-Objective:
-To identify cognitive and demographic factors that influence the pace of sign language acquisition in children, using real-world session data.
+A machine learning project exploring whether **cognitive, interactional and demographic features** can predict American Sign Language (ASL) learning progress in children using the ASL-PLAY dataset.
+
+### Key Features
+
+* Performed data preprocessing including **imputation, scaling and outlier handling**
+* Built and compared **Linear Regression, Random Forest and LSTM** models
+* Evaluated models using **MAE, MSE, RMSE and R²**
+* Optimised model hyperparameters to improve predictive performance
+* Random Forest achieved the strongest overall performance with **R² ≈ 0.53**
+* Used feature importance to identify **child age, adult object touch and adult gaze** as influential predictors
+
+**Tech:** Python · Pandas · NumPy · Scikit-learn · TensorFlow/Keras · Machine Learning · LSTM
 
 Dataset:
 
@@ -20,44 +28,3 @@ Two sessions per family
 Each session stored as a separate CSV file
 
 Additional demographics file with child and caregiver information
-
-Data Management:
-
-Organize data by sessions and family ID
-
-Merge session files and align with demographics
-
-Clean and standardize column formats
-
-Extract features such as number of signs, time between signs, session length, and child age
-
-Modeling Approach:
-
-Regression-based prediction of sign acquisition pace
-
-Models considered: Linear Regression, Random Forest Regressor and LSTM
-
-Evaluation metrics: MSE, RMSE, MAE, R² Score
-
-Feature importance analysis included
-
-Data Type:
-Tabular data including categorical, continuous and time-based variables
-
-Version Control:
-
-Code and notebooks tracked using Git
-
-Data used in read-only mode
-
-All changes documented in GitHub repository
-
-Work Overview:
-
-Dataset review and preprocessing
-
-Feature engineering and EDA
-
-Model training and evaluation
-
-Optimisation, Final analysis, write-up and submission
