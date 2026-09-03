@@ -13,7 +13,7 @@ A machine learning project exploring whether **cognitive, interactional and demo
 
 **Tech:** Python · Pandas · NumPy · Scikit-learn · TensorFlow/Keras · Machine Learning · LSTM
 
-Dataset:
+**Dataset:**
 
 Source: ASL-Play dataset from Databrary (https://osf.io/3w8ka/files/osfstorage)
 
